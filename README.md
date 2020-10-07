@@ -1,3 +1,5 @@
+***SIMPLE PIE CHART v1.0***
+
 ![exemple](screenshot.jpg)
 
 **Get started**
@@ -28,11 +30,11 @@ You can customize the css file (default pie diameter : 200px)
 **Include JS**
 
 ```html
-<script src="piechart.js">
+<script src="piechart.js"></script>
 ```
 
 **or jQuery version (jquery required before the script)**
 
 ```html
-<script src="piechart.jquery.js">
+<script src="piechart.jquery.js"></script>
 ```
