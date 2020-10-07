@@ -14,6 +14,10 @@ $(function () {
         $(this).css({
             "background-image": `conic-gradient(${list.join()})`
         })
-    })
+    });
+
+    $('.donut').each(function(){
+        $(this).css('background-image', 'radial-gradient(white 40%, transparent 41%),' + $(this).css('background-image'));
+    });
 
 });

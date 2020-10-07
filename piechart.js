@@ -14,4 +14,9 @@ document.addEventListener('DOMContentLoaded', function () {
         pie[k].style.backgroundImage = `conic-gradient(${list.join()})`;
     }
 
+    let donut = document.querySelectorAll('.donut');
+    for (let d = 0; d < donut.length; d++) {
+       donut[d].style.backgroundImage =  'radial-gradient(white 40%, transparent 41%),' + donut[d].style.backgroundImage;
+    }
+
 });
