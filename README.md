@@ -23,10 +23,12 @@ Obviously, sum of data-percent attributes of parts must be 100
 
 or for donut aspect:
 
+```html
 <div class="piechart donut">
     <div class="part" data-percent="40" data-color="rgba(255,0,0)"></div>
     <div class="part" data-percent="60" data-color="blue"></div>     
 </div>
+```
 
 **Include CSS**
 
